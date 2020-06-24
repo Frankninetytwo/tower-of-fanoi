@@ -216,7 +216,7 @@ class StackManager {
           }, delayTime);
     }
 
-    solveTowerOfHanoi() {
+    solveTowerOfFanoi() {
 
         let nextWaitingTimeInMs = 0;
         let currentWaitingTimeInMs = 0;
@@ -251,4 +251,4 @@ class DEBUG {
 
 
 stackManager = new StackManager(10);
-stackManager.solveTowerOfHanoi();
+stackManager.solveTowerOfFanoi();
